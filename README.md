@@ -14,4 +14,6 @@ Take it easy on your eyes, get yourself a dark theme!
 
 Now when you navigate to https://forum.freecodecamp.org/, you should see similar results as the picture above.
 
-#### Note: if you're in Firefox, installation is similar. Go to "about:addons", and click the dropdown on the left-hand side of the search bar, click "Install Add-on From File..."
+#### Note: if you're using Firefox, installation is similar. Go to "about:addons", and click the dropdown on the left-hand side of the search bar, click "Install Add-on From File...", and select the package.
+
+Feel free to change the colors to whatever you prefer. :smile:
