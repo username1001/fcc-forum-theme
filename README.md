@@ -16,4 +16,4 @@ Now when you navigate to https://forum.freecodecamp.org/, you should see similar
 
 #### Note: if you're using Firefox, installation is similar. Go to "about:addons", and click the dropdown on the left-hand side of the search bar, click "Install Add-on From File...", and select the package.
 
-Feel free to change the colors to whatever you prefer. :smile:
+Feel free to change the colors to whatever you'd prefer. :smile:
