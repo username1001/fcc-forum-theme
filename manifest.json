@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "FCC-Forum Theme",
+  "version": "1.0",
+
+  "description": "A dark theme that's easy on your eyes",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.forum.freecodecamp.org/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
+
