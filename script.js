@@ -9,6 +9,9 @@
   document.getElementById("reply-control").style.backgroundColor = "#555";
 })();
 
+// These colors aren't really "nice", and a little buggy. 
+// For example, they don't change the color of newly rendered elements.
+// You can remove these following lines if that bothers you.
 // Changes the color of the numbers for: Replies/Views
 const changeNumberColor = () => {
   const number = document.getElementsByClassName("number");
