@@ -1,3 +1,15 @@
+/**
+** To change the colors to your preference, modify wherever you see color being set. 
+** For example: 
+** title[i].style.color = "gold"; 
+** Simply edit where it says gold, to whatever color you'd like.
+** 
+** Written by: Matt Fay. 2017.
+**
+** NOTE: I've commented out the calls to the functions which change the colors to gold.
+**
+**/
+
 "use strict";
 // Changes the background color of the page.
 (function darkTheme() {
@@ -19,7 +31,7 @@ const changeNumberColor = () => {
     number[i].style.color = "gold";
   }
 };
-changeNumberColor();
+// changeNumberColor();
 
 // Changes the color of the topic's title
 const changeLinkColor = () => {
@@ -28,11 +40,11 @@ const changeLinkColor = () => {
     title[i].style.color = "gold";
   }
 };
-changeLinkColor();
+// changeLinkColor();
 
 // When new data is rendered, the functions don't target those elements.
 // This scroll event accomplishes that.
 window.addEventListener("scroll", () => {
-  changeNumberColor();
-  changeLinkColor();
+//  changeNumberColor();
+//  changeLinkColor();
 });
