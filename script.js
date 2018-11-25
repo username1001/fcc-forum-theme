@@ -2,13 +2,12 @@
 ** Written by: Matt Fay. 2017.
 **/
 
-"use strict";
-// Changes the background color of the page.
+'use strict';
 (function darkTheme() {
-  document.body.style.backgroundColor = "#333";
+  document.body.style.backgroundColor = '#333';
   document.getElementsByClassName(
-    "d-header clearfix"
+    'd-header clearfix'
   )[0].style.backgroundColor =
-    "#444";
-  document.getElementById("reply-control").style.backgroundColor = "#555";
+    '#444';
+  document.getElementById("reply-control").style.backgroundColor = '#555';
 })();
